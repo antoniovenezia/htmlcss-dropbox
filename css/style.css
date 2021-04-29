@@ -26,11 +26,11 @@
     width: 100%;
     text-align: center;
     /* line-height: ; */
-    border: 1px solid black;
     font-size: 20px;
     font-weight: bold;
     padding: 10px 0;
     line-height: 30px;
+    /* border: 1px solid black; */
 }
 
 .navbar-fl{
@@ -45,7 +45,7 @@
     vertical-align: middle;
 }
 
-li{
+.li-navbar{
     display: inline;
     margin-right: 20px;
 }
@@ -65,13 +65,13 @@ li{
     width: 100%;
     height: 500px;
     background-color: hsl(207deg 52% 81%);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .container-header{
     max-width: 1200px;
     height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
 }
 
@@ -81,7 +81,7 @@ li{
 }
 
 .header-float{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .jumbo{
@@ -99,7 +99,7 @@ li{
     padding: 10px;
     margin: 25px 0;
     text-align: center;
-    width: 200px;
+    width: 100%;
 }
 
 .arrow-down{
@@ -110,4 +110,46 @@ li{
 .header-fr{
     margin-top: 40px;
     width: 60%;
+}
+
+
+
+/* FIRST PAGE */
+.container-first-page{
+    width: 1200px;
+    margin: 120px auto;
+    /* border: 1px solid black; */
+}
+
+.checkbox-first-page{
+    margin-right: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+.float-first-page{
+    width: calc((100% / 3) - 30px);
+    border: 1px solid lightgrey;
+    line-height: 25px;
+    margin: 15px;
+}
+
+.title-float-fp{
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px 0;
+}
+
+.float-first-page2{
+    padding: 15px;
+}
+
+.transparent-text{
+    color: rgba(0, 0, 0, .5);
+}
+
+.check-blue{
+    color: blue;
 }
