@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CLASS UTILITY */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+
+
+/* NAVBAR */
+.container-navbar{
+    width: 100%;
+    text-align: center;
+    /* line-height: ; */
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.navbar-fl{
+    width: 50%;
+}
+
+.navbar-fr{
+    width: 50%;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.inizia{
+    color: white;
+    background-color: blue;
+    padding: 0 5px;
+}
+
+
+
+/* HEADER */
+.bg-header{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.container-header{
+    width: 1200px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.header-title{
+    text-align: center;
+}
