@@ -27,7 +27,7 @@
     text-align: center;
     /* line-height: ; */
     border: 1px solid black;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     padding: 10px 0;
     line-height: 30px;
@@ -50,10 +50,12 @@ li{
     margin-right: 20px;
 }
 
-.inizia{
+.blue-botton1{
     color: white;
     background-color: blue;
-    padding: 0 5px;
+    padding: 10px;
+    margin: 25px 0;
+    text-align: center;
 }
 
 
@@ -62,16 +64,50 @@ li{
 .bg-header{
     width: 100%;
     height: 500px;
+    background-color: hsl(207deg 52% 81%);
     border: 1px solid black;
 }
 
 .container-header{
-    width: 1200px;
+    max-width: 1200px;
     height: 500px;
     border: 1px solid black;
     margin: 0 auto;
 }
 
 .header-title{
+    /* text-align: center; */
+    font-size: 30px;
+}
+
+.header-float{
+    border: 1px solid black;
+}
+
+.jumbo{
+    width: 700px;
+}
+
+.header-fl{
+    width: 30%;
+    padding-top: 50px;
+}
+
+.blue-botton2{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 25px 0;
     text-align: center;
+    width: 200px;
+}
+
+.arrow-down{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.header-fr{
+    margin-top: 40px;
+    width: 60%;
 }
