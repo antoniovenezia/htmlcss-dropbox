@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
 /* CLASS UTILITY */
 .clearfix::after{
     content: "";
@@ -21,16 +28,14 @@
 
 
 
+
 /* NAVBAR */
 .container-navbar{
     width: 100%;
-    /* text-align: center; */
-    /* line-height: ; */
     font-size: 20px;
     font-weight: bold;
     padding: 10px 0;
-    line-height: 30px;
-    /* border: 1px solid black; */
+    line-height: 50px;
 }
 
 .navbar-fl{
@@ -44,6 +49,7 @@
 
 .logo{
     vertical-align: middle;
+    margin-left: 25px;
 }
 
 .li-navbar{
@@ -54,39 +60,34 @@
 .blue-botton1{
     color: white;
     background-color: blue;
-    padding: 10px;
-    margin: 25px 0;
+    padding: 5px 25px;
+    margin: 25px 20px 25px 0;
     text-align: center;
 }
+
 
 
 
 /* HEADER */
 .bg-header{
     width: 100%;
-    height: 500px;
+    height: 650px;
     background-color: hsl(207deg 52% 81%);
-    /* border: 1px solid black; */
 }
 
 .container-header{
     max-width: 1200px;
-    height: 500px;
-    /* border: 1px solid black; */
+    height: 650px;
     margin: 0 auto;
 }
 
 .header-title{
-    /* text-align: center; */
     font-size: 30px;
-}
-
-.header-float{
-    /* border: 1px solid black; */
+    padding-top: 30px;
 }
 
 .jumbo{
-    width: 700px;
+    width: 900px;
 }
 
 .header-fl{
@@ -109,9 +110,11 @@
 }
 
 .header-fr{
+    width: 67%;
     margin-top: 40px;
-    width: 60%;
 }
+
+
 
 
 /* MAIN */
@@ -121,11 +124,12 @@
 }
 
 
+
+
 /* FIRST part */
 .container-first-part{
     width: 100%;
-    margin: 120px auto;
-    /* border: 1px solid black; */
+    margin: 150px auto;
 }
 
 .header-first-part{
@@ -169,7 +173,6 @@ li{
     width: calc(100% - 30px);
     border: 1px solid lightgrey;
     margin: 15px auto;
-    /* padding: 15px; */
 }
 
 .hr-float-fl{
@@ -180,7 +183,6 @@ li{
 
 .hr-float-fr{
     width: 20%;
-    /* padding: 10px; */
 }
 
 .blue-botton3{
@@ -193,18 +195,17 @@ li{
 
 
 
+
 /* SECOND PART */
 .container-second-part{
     width: calc(100% - 30px);
     height: 500px;
     margin: 120px auto;
-    /* border: 1px solid black; */
 }
 
 .partner-float-fl{
     width: 60%;
     height: 500px;
-    /* border: 1px solid black; */
     background-image: url(../img/partner.png);
     background-size: cover;
 }
@@ -218,7 +219,6 @@ li{
     width: 150px;
     padding: 10px;
     text-align: center;
-    /* border: 1px solid black; */
 }
 
 
@@ -229,7 +229,6 @@ li{
     width: 100%;
     height: 1000px;
     margin: 0 auto;
-    /* border: 1px solid black; */
 }
 
 .title-third-part{
@@ -240,13 +239,12 @@ li{
     width: calc(100% / 3);
     height: 500px;
     padding: 15px;
-    /* border: 1px solid black; */
 }
 
 
 
-/* IMG FLOAT */
 
+/* IMG FLOAT */
 .img1-third-part-float{
     width: 100%;
     height: 300px;
@@ -306,25 +304,22 @@ li{
 
 
 
+
 /* FIFTH PART */
 .container-fifth-part{
     width: 100%;
     margin-top: 100px;
-    /* height: 600px; */
-    border: 1px solid black;
 }
 
 [class^="float-fifth-part"]{
     width: calc(100% / 3);
     height: 460px;
     position: relative;
-    /* border: 1px solid black; */
 }
 
 [class^="underfloat-fifth-part"]{
     width: 50%;
     height: 230px;
-    border: 1px solid black;
 }
 
 .underfloat-fifth-part1{
@@ -335,7 +330,6 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;  
     background-position: center;  
-    border: 1px solid black;
 }
 
 .underfloat-fifth-part2{
@@ -346,7 +340,6 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;  
-    border: 1px solid black;
 }
 
 .underfloat-fifth-part3{
@@ -357,7 +350,6 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;  
-    border: 1px solid black;
 }
 
 .underfloat-fifth-part4{
@@ -368,7 +360,6 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;  
-    border: 1px solid black;
 }
 
 .float-fifth-part55{
@@ -379,17 +370,13 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: 20px 20px;  
-    /* border: 1px solid black; */
 }
 
 .text-part55{
     padding: 200px 25px;
-    /* font-size: 15px; */
-    /* line-height: 20px; */
 }
 
 .hr-part55{
-    /* color: black; */
     padding-top: 200px;
     font-size: 10px solid black;
 }
@@ -403,7 +390,6 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;  
-    border: 1px solid black;
 }
 
 .underfloat-fifth-part6{
@@ -414,7 +400,6 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;  
-    border: 1px solid black;
 }
 
 .underfloat-fifth-part7{
@@ -425,7 +410,6 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;  
-    border: 1px solid black;
 }
 
 .underfloat-fifth-part8{
@@ -436,17 +420,12 @@ li{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;  
-    border: 1px solid black;
 }
-
-
-
 
 .box-underfloats{
     width: 100%;
     height: 230px;
     background-color: #b4d0e7;
-    border: 1px solid black;
 }
 
 .underbox-underfloats{
@@ -456,22 +435,22 @@ li{
 }
 
 .hr-float-fifth-part1{
-    width: 60%;
-    font-size: 40px;
+    width: 80%;
+    font-size: 45px;
     font-weight: bold;
     color: #61082b;
-    line-height: 230px;
+    padding: 80px;
 }
 
 .hr-float-fifth-part2{
-    width: 40%;
-    /* height: 50%; */
+    width: 20%;
     margin-top: 100px;
     padding: 10px;
     color: white;
     background-color: blue;
     background-size: contain;
 }
+
 
 
 
@@ -487,35 +466,24 @@ li{
 
 
 
+
 /* FOOTER */
 .container-footer{
     height: 600px;
-    background-color: hsl(206deg 9% 15%);
+    background-color: black;
 }
-
 
 .float-footer{
     max-width: 1200px;
     color: white;
-    margin: auto;
-    border-bottom: 1px solid hsl(227deg 56% 64%);
+    margin: 0 auto 50px auto;
     padding-bottom: 20px;
-
 }
 
 .footer-big-text{
     font-size: 30px;
     font-weight: bold;
-    color: hsl(227deg 56% 64%);
     padding: 50px 0 10px 0;
-}
-
-.italiano{
-    display: inline-block;
-}
-
-.flag{
-    width: 40px;
 }
 
 li{
@@ -524,7 +492,19 @@ li{
 }
 
 .fl-footer{
-    width: calc(100%/6);
+    width: calc(100%/5);
 }
 
+.last-float-sixth-part{
+    margin-bottom: 100px;
+}
+
+.footer-line{
+    width: 150px;
+}
+
+.italiano{
+    margin-top: 70px;
+    color: white;
+}
 
