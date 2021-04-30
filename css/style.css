@@ -363,7 +363,7 @@ li{
 }
 
 .float-fifth-part55{
-    width: calc(100% / 3)%;
+    width: calc(100% / 3);
     height: 460px;
     background-color: #f5f5f5;
     background-image: url(../img/clear_channel.svg);
@@ -378,7 +378,6 @@ li{
 
 .hr-part55{
     padding-top: 200px;
-    font-size: 10px solid black;
 }
 
 
